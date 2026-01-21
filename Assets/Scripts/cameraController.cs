@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cameraController : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
     // Reference to the player GameObject.
     public GameObject player;
