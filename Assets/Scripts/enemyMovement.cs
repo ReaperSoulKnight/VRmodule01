@@ -20,7 +20,7 @@ public class EnemyMovement : MonoBehaviour
  void Update()
     {
  // If there's a reference to the player...
- if (player != null)
+ if (player!= null)
         {    
  // Set the enemy's destination to the player's current position.
             navMeshAgent.SetDestination(player.position);
